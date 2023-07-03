@@ -6,7 +6,7 @@
 
 > A zero-configuration, wasm-powered local development environment for Laravel
 
-Diode is a Node CLI app containing a PHP server specifically developed to run a local development environment for the Laravel framework. It's heavily inspired by, and built on the work of, the [WordPress Playground](https://github.com/WordPress/wordpress-playground) team.
+Diode is a Node CLI app containing a PHP server specifically built to run a local development environment for the Laravel framework. It's heavily inspired by, and built on the work of, the [WordPress Playground](https://github.com/WordPress/wordpress-playground) team.
 
 **Note:** This is currently in active development and updates can contain breaking changes. If you find a bug, feel free to [open an issue](https://github.com/aschmelyun/diode/issues/new)!
 
