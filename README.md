@@ -1,14 +1,16 @@
+![Screenshot of Diode running in a terminal window](/art/diode-cli-screenshot.png)
+
 # Diode
 
 [![MIT Licensed](https://img.shields.io/github/license/aschmelyun/diode)](LICENSE.md)
 [![Node 16.0.0 or higher](https://img.shields.io/node/v/diode-cli)](https://npmjs.com/package/diode-cli)
 [![Total Downloads](https://img.shields.io/npm/dt/diode-cli)](https://npmjs.com/package/diode-cli)
 
-> A zero-configuration, wasm-powered local development environment for Laravel
+> A zero-configuration, WASM-powered local development environment for Laravel
 
 Diode is a Node CLI app containing a PHP server specifically built to run a local development environment for the Laravel framework. It's heavily inspired by, and built on the work of, the [WordPress Playground](https://github.com/WordPress/wordpress-playground) team.
 
-**Note:** This is currently in active development and updates can contain breaking changes. If you find a bug, feel free to [open an issue](https://github.com/aschmelyun/diode/issues/new)!
+**Note:** This is currently in active development and updates can contain breaking changes. Some core Laravel features may be broken or missing when using this tool. If you find a bug, feel free to [open an issue](https://github.com/aschmelyun/diode/issues/new)!
 
 ## Installation
 
@@ -51,6 +53,14 @@ Artisan commands are also available via the command of the same name.
 ```bash
 diode artisan make:model Comment --migration
 ```
+
+## Caveats
+
+These are some current known limitations or workarounds when using Diode with Laravel. Most of these are due to the current feature set of php-wasm.
+
+- Composer installations run much slower than natively, as packages are individually downloaded and unzipped instead of using proc_open
+- Unless you are using an external database (like RDS), SQLite is recommended
+- When running migrations for the first time, you'll have to use the `--force` option to bypass the question about creating a sqlite database for the first time.
 
 ## Why Build This?
 

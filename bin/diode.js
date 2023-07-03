@@ -2,7 +2,7 @@
 import Diode from '../lib/Diode.js';
 import arg from 'arg';
 
-global.version = '0.1.0';
+global.version = '0.1.2';
 
 const options = {
     permissive: true,
