@@ -6,7 +6,7 @@
 
 > A zero-configuration, wasm-powered local development environment for Laravel
 
-Diode is a Node CLI app containing a PHP server specifically developed to run a local development environment for the Laravel framework. It's heavily inspired by, and built on the work of, the [WordPress Playground](https://github.com/WordPress/wordpress-playground) team.
+Diode is a Node CLI app containing a PHP server specifically built to run a local development environment for the Laravel framework. It's heavily inspired by, and built on the work of, the [WordPress Playground](https://github.com/WordPress/wordpress-playground) team.
 
 **Note:** This is currently in active development and updates can contain breaking changes. If you find a bug, feel free to [open an issue](https://github.com/aschmelyun/diode/issues/new)!
 
@@ -60,7 +60,7 @@ Installing PHP locally has a history of being difficult depending on the OS you'
 
 I built Diode as a kind of quick-start tool to spin up a local environment, letting you hit the ground running to build an application with Laravel.
 
-If you find yourself wanting more out of a local environment, I suggest trying out something like [Docker](https://www.docker.com/) as the next step! I have a series of [YouTube videos](https://www.youtube.com/watch?v=5N6gTVCG_rw) and a [full course](https://laraveldocker.com) available if you'd like to learn more about using Docker with Laravel.
+If you find yourself wanting more out of a local environment, I suggest trying out something like Docker as the next step! I have a series of [YouTube videos](https://www.youtube.com/watch?v=5N6gTVCG_rw) and a [full course](https://laraveldocker.com) available if you'd like to learn more about using Docker with Laravel.
 
 ## Contact
 
